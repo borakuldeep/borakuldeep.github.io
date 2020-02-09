@@ -30,11 +30,24 @@ body {
 .item1 {
     grid-column-start: 2;
     grid-column-end: 2;
+    margin-bottom: 120px;
   }
 
   .item2 {
     grid-column-start: 3;
     grid-column-end: 5;
+  }
+
+  .item2 h2 {
+      margin-bottom: 0;
+      margin-left: 7%;
+      height: 50px;
+  }
+
+  .item2 sub {
+      margin-top: 0;
+      margin-left: 40%;
+      font-size: 1.5rem;
   }
 
 .profile {
@@ -44,8 +57,8 @@ body {
 }
 
 img {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 
 }
@@ -60,6 +73,11 @@ img {
     background: orange;
     position: relative;
     margin-left: 15%;
-    -margin: 10%;
-    margin-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+.post:hover {
+    transition: all 0.3s;
+    box-shadow: 5px 5px 5px gainsboro;
 }
