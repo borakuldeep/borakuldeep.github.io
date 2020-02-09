@@ -24,13 +24,13 @@ body {
     font-family: Montserrat,sans-serif;
     font-size: 40px;
     align-items: center;
+    margin-bottom: 2%;
     
 }
 
 .item1 {
     grid-column-start: 2;
     grid-column-end: 2;
-    margin-bottom: 120px;
   }
 
   .item2 {
