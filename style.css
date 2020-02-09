@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    -height: 100vh;
+    background-image: linear-gradient( to right, #333333 50%, #FEFFFD 50%);
+    text-align: center;
+    align-items: center;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    width: 70%;
+    height: 15%;
+    -background: orange;
+    position: relative;
+    margin-left: 20%;
+    margin-top:1%;
+    font-family: Montserrat,sans-serif;
+    font-size: 40px;
+    align-items: center;
+    
+}
+
+.item1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+
+  .item2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+.profile {
+    margin: 5%;
+    margin-left: -20%;
+
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+
+.post {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    width: 70%;
+    height: 30%;
+    background: orange;
+    position: relative;
+    margin-left: 15%;
+    -margin: 10%;
+    margin-bottom: 1%;
+}
