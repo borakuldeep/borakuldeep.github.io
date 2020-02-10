@@ -14,7 +14,7 @@ body {
 
 .intro {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
     width: 70%;
     height: 15%;
@@ -29,14 +29,18 @@ body {
     
 }
 
+
+
 .item1 {
-    grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
   }
 
   .item2 {
-    grid-column-start: 2;
-    grid-column-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    text-align: left;
+    margin-left: 10%;
   }
 
   .item2 h2 {
@@ -129,8 +133,9 @@ img {
 @media only screen and (max-width: 1065px) {
     .item2 sub {
        -width: 70%;
-       -font-size: 1rem;
+       font-size: 1.3rem;
        margin-left: 10%;
+       margin-bottom: 20%;
     }
 
     .item2 h2 {
@@ -164,13 +169,3 @@ img {
 
 }
 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
-}
