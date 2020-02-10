@@ -9,6 +9,7 @@ body {
     background-image: linear-gradient( to right, #333333 50%, #FEFFFD 50%);
     text-align: center;
     align-items: center;
+    font-family: Montserrat,sans-serif;
 }
 
 .intro {
@@ -31,6 +32,7 @@ body {
 .item1 {
     grid-column-start: 2;
     grid-column-end: 2;
+    -margin-bottom: 120px;
   }
 
   .item2 {
@@ -66,18 +68,49 @@ img {
 
 .post {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 1px;
     text-align: center;
-    width: 70%;
-    height: 30%;
-    background: orange;
+    width: 60%;
+    height: 25%;
+    -background: orange;
     position: relative;
-    margin-left: 15%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    margin-left: 20%;
+    padding-bottom: 1%;
     margin-bottom: 2%;
+}
+
+.post h2, h3 {
+    margin-block-end: 0.4rem;
+    margin-block-start: 0.4rem;
+}
+
+.post h4, h5 {
+    margin-block-end: 0rem;
+    margin-block-start: 0rem;
+}
+
+.post a {
+    cursor: pointer;
 }
 .post:hover {
     transition: all 0.3s;
     box-shadow: 5px 5px 5px gainsboro;
 }
+
+.post-left {
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: right;
+    margin-right: 30%;
+}
+
+.post-link {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: left;
+    margin-left: 10%;
+    opacity: 80%;
+  }
